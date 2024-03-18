@@ -1,17 +1,17 @@
 package org.example.service;
 
-import org.example.domain.Student;
-import org.example.repository.NotaXMLRepo;
-import org.example.repository.StudentXMLRepo;
-import org.example.repository.TemaXMLRepo;
-import org.example.validation.NotaValidator;
-import org.example.validation.StudentValidator;
-import org.example.validation.TemaValidator;
-import org.example.validation.ValidationException;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+//import org.example.domain.Student;
+//import org.example.repository.NotaXMLRepo;
+//import org.example.repository.StudentXMLRepo;
+//import org.example.repository.TemaXMLRepo;
+//import org.example.validation.NotaValidator;
+//import org.example.validation.StudentValidator;
+//import org.example.validation.TemaValidator;
+//import org.example.validation.ValidationException;
+//import org.junit.jupiter.api.Assertions;
+//import org.junit.jupiter.api.Test;
+//
+//import static org.junit.jupiter.api.Assertions.*;
 
 class ServiceTest {
 
@@ -29,7 +29,8 @@ class ServiceTest {
 //    @Test
       public void testAddStudent() {
           int x=10;
-          Assertions.assertEquals(x,10);
+          //Assertions.assertEquals(x,10);
+          assert(x==10);
 //        // Add successfully a student -> null will be returned - unique id
 //        Assertions.assertNull(service.addStudent(new Student("123", "Test", 205, "test@email.com")));
 //
